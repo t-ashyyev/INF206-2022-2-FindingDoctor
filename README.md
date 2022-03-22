@@ -1,1 +1,1 @@
-# INF312-2022-2-FindingDoctor
+# INF206-2022-2-FindingDoctor
