@@ -9,7 +9,7 @@
     <meta name="author" content="Webdesigntuts+">
 
     <link rel="stylesheet" a href="/Css/loginPasien.css">
-    {{--  <link href='http://fonts.googleapis.com/css?family=Economica:700,400italic' rel='stylesheet' type='text/css'> --}}
+   
 
 </head>
  
