@@ -10,9 +10,9 @@
 </head>
 <body>
 <div class="wrapper fadeInDown">
-        <div id="formContent">
-            <!-- Tabs Titles -->
-            <h2 class="active"> SELAMAT DATANG </h2>
+    <div id="formContent">
+        <!-- Tabs Titles -->
+        <h2 class="active"> SELAMAT DATANG </h2>
 
         <!-- Icon -->
         <div class="fadeIn first">
@@ -26,8 +26,6 @@
         <input type="button" class="fadeIn fourth" value="Registrasi" onclick="window.location.href='/Registrasi'">
         
     </div>
-
-  </div>
 </div>
 </body>
 </html>
