@@ -1,39 +1,34 @@
-<!DOCTYPE HTML>
-<html> 
-    <head>
-        <title> Finding Doctor </title>
-        <<meta name="viewport" content="width=device-width, initial-scale=1">>
-    </head>
-    <body> 
-        <form action="./regis.php" class="form" method="POST">
-            <h1> Register new account</h1>
-            <div class="">
-            <?php
-            if (isset($success) && $success == true){
-                echo '<p color="red"> Your has been created. <a href="./login.php"> Click here</a> to login<p>';
-            }   
-            else if (isset($error_msg))
-                echo '<p color="red">'.$error_msg.'</p>'; 
-           ?>
-           </div>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
 
-           <div class="">
-               <input type="text" name="username" value="" placeholder="enter username" autocomplete="off" required />
-          </div>
-          
-          <div>
-              <input type="password" name="password" value="" placeholder="enter password" autocomplere="off" required />
-          </div>
-          <p>password must be at least 5 characters and<br /> have a special character, e.g. !#$.,:;()</font></p>
-          <div>
-              <input type="password" name="confirm_password" value="" placeholder="confirm your password" autocomplete="off" required />
-          </div>
-        <div class=""> 
-            <input class="" type="submit" name="register" value="create account" />
-        </div>
-         
-        <p class="centre"><br  />
-        already have an account? <a href="<?php echo SITE_ADDR ?>/login"> Login here</a> 
-        </form>
-    </body>
+<form action="/regus.php">
+  <div class="container">
+    <h1>Register</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    <hr>
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+  
+  <div class="container signin">
+    <p>Already have an account? <a href="#">Sign in</a>.</p>
+  </div>
+</form>
+
+</body>
 </html>
