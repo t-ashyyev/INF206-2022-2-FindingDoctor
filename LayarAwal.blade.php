@@ -21,8 +21,9 @@
 
         <!-- Login -->
        
-        <input type="button" class="fadeIn fourth" value="Log In Sebagai Pasien" onclick="window.location.href='/log'">
-        <input type="button" class="fadeIn fourth" value="Log In Sebagai Dokter">
+        <input type="button" class="fadeIn fourth" value="Log In Sebagai Pasien" onclick="window.location.href='/logPasien'">
+        <input type="button" class="fadeIn fourth" value="Log In Sebagai Dokter" onclick="window.location.href='/logDoctor'">
+        <input type="button" class="fadeIn fourth" value="Registrasi" onclick="window.location.href='/Registrasi'">
         
     </div>
 
