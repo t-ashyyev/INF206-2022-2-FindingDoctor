@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="LayarAwal.css">
     <title>FindingDoctor</title>
     <link rel="icon" href="Logo_title.png" type="image/x-icon">
 </head>
@@ -21,8 +21,9 @@
 
         <!-- Login -->
        
-        <input type="button" class="fadeIn fourth" value="Log In Sebagai Pasien" onclick="window.location.href='/log'">
-        <input type="button" class="fadeIn fourth" value="Log In Sebagai Dokter">
+        <input type="button" class="fadeIn fourth" value="Log In Sebagai Pasien" onclick="window.location.href='/logPasien'">
+        <input type="button" class="fadeIn fourth" value="Log In Sebagai Dokter" onclick="window.location.href='/logDoctor'">
+        <input type="button" class="fadeIn fourth" value="Registrasi" onclick="window.location.href='/Registrasi'">
         
     </div>
 
