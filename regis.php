@@ -20,9 +20,7 @@
            <div class="">
                <input type="text" name="username" value="" placeholder="enter username" autocomplete="off" required />
           </div>
-          <div>
-              <input type="text" name="email" value="" placehplder="give email" autocomplete="off" required />
-          </div>
+          
           <div>
               <input type="password" name="password" value="" placeholder="enter password" autocomplere="off" required />
           </div>
