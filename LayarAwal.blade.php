@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="LayarAwal.css">
+    <link rel="stylesheet" href="/Css/LayarAwal.css">
     <title>FindingDoctor</title>
-    <link rel="icon" href="Logo_title.png" type="image/x-icon">
+    <link rel="icon" href="/Logo/Logo_title.png" type="image/x-icon">
 </head>
 <body>
 <div class="wrapper fadeInDown">
@@ -16,7 +16,7 @@
 
         <!-- Icon -->
         <div class="fadeIn first">
-            <img src="logo1.png" alt="logo" width="150">
+            <img src="/Logo/logo1.png" alt="logo" width="150">
         </div>
 
         <!-- Login -->
