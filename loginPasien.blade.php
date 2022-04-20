@@ -26,9 +26,8 @@
         <input type="submit" class="fadeIn fourth" value="Log In">
         </form>
         
+        </div>
     </div>
-
-  </div>
 </div>
 </body>
 </html>
