@@ -4,6 +4,7 @@
  
 <?php
  
+<<<<<<< HEAD
  if(isset($_GET['logout'])) {
     session_destroy();
     unset($_SESSION['uname']);
@@ -12,6 +13,12 @@
  
  
     
+=======
+    echo "Logged out successfully";
+ 
+    session_start();
+    session_destroy();
+>>>>>>> 2008107010051
  
 ?>
  
