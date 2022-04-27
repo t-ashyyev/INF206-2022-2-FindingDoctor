@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyDoctorList</title>
 </head>
-<body>
+<body class="opsi">
     <div class="wrapper fadeInDown">
     <!-- ============ HEADER =========== -->
     <header id="header">
