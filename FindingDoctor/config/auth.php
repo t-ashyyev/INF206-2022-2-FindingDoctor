@@ -15,7 +15,7 @@ return [
 
     'defaults' => [
         'guard' => 'web',
-        'passwords' => 'users',
+        'passwords' => 'pasiens',
     ],
 
     /*
@@ -38,8 +38,16 @@ return [
     'guards' => [
         'web' => [
             'driver' => 'session',
-            'provider' => 'users',
+            'provider' => 'pasiens',
         ],
+        'doctor' => [
+            'driver' => 'session',
+            'provider' => 'doctors',
+        ],
+        'pasien' => [
+            'driver' => 'session',
+            'provider' => 'pasiens'
+        ]
     ],
 
     /*
@@ -60,15 +68,15 @@ return [
     */
 
     'providers' => [
-        'users' => [
+        'pasiens' => [
             'driver' => 'eloquent',
-            'model' => App\Models\User::class,
+            'model' => App\Models\Pasien::class,
         ],
 
-        // 'users' => [
-        //     'driver' => 'database',
-        //     'table' => 'users',
-        // ],
+        'doctors' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\Doctor::class,
+        ],
     ],
 
     /*
@@ -87,8 +95,14 @@ return [
     */
 
     'passwords' => [
-        'users' => [
-            'provider' => 'users',
+        'pasiens' => [
+            'provider' => 'pasiens',
+            'table' => 'password_resets',
+            'expire' => 60,
+            'throttle' => 60,
+        ],
+        'doctors' => [
+            'provider' => 'doctors',
             'table' => 'password_resets',
             'expire' => 60,
             'throttle' => 60,
