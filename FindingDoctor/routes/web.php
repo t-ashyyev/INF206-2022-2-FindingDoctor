@@ -37,3 +37,7 @@ Route::get('/HomePasien', function () {
 Route::get('/HomeDokter', function () {
     return view('HomeDokter');
 });
+
+Route::get('/Help', function () {
+    return view('Help');
+});
