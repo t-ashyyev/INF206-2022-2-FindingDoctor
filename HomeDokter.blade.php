@@ -1,5 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+</div>
+<button type="onoff" class="available" onclick="onoff(this)" ><div>status</div></button>
+</form>
+<script>
+var buttonstate=0;
+function onoff(element)
+{
+  buttonstate= 1 - buttonstate;
+  var blabel, bstyle, bcolor;
+  if(buttonstate)
+  {
+    blabel="available";
+    bstyle="green";
+    bcolor="lightgreen";
+  }
+  else
+  {
+    blabel="not available";
+    bstyle="lightgray";
+    bcolor="gray";
+  }
+  var child=element.firstChild;
+  child.style.background=bstyle;
+  child.style.color=bcolor;
+  child.innerHTML=blabel;
+}</script>
   <head>
     <!-- ============= META ============ -->
     
