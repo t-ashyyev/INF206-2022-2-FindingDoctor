@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DokterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +17,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('LayarAwal');
 });
+
+Route::resource("/dokter", DokterController::class);
 
 
 Route::get('/loginPasien', function () {
@@ -33,11 +36,8 @@ Route::get('/Regis', function () {
 Route::get('/HomePasien', function () {
     return view('HomePasien');
 });
-
+   
 Route::get('/HomeDokter', function () {
-    return view('HomeDokter');
+  return view('HomeDokter');
 });
 
-Route::get('/Help', function () {
-    return view('Help');
-});
