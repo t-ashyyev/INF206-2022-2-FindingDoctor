@@ -139,6 +139,58 @@
           </div>
         </div>
     </div>
+    
+    <div class="list">
+          <div class="foto">
+            <img class="profile" src="Logo/logo1.png">
+          </div>
+          <div class="info">
+            <p>
+              Nama
+            </p>
+            <p>
+              Spesialis
+            </p>
+            <p>
+              Availability
+            </p>
+          </div>
+        </div>
+
+        <div class="list">
+          <div class="foto">
+            <img class="profile" src="Logo/logo1.png">
+          </div>
+          <div class="info">
+            <p>
+              Nama
+            </p>
+            <p>
+              Spesialis
+            </p>
+            <p>
+              Availability
+            </p>
+          </div>
+        </div>
+        
+        <div class="list">
+          <div class="foto">
+            <img class="profile" src="Logo/logo1.png">
+          </div>
+          <div class="info">
+            <p>
+              Nama
+            </p>
+            <p>
+              Spesialis
+            </p>
+            <p>
+              Availability
+            </p>
+          </div>
+        </div>
+    </div>
 
     <div class="list-kanan">
       <h2>Terdekat</h2>
@@ -177,6 +229,58 @@
           </div>
         </div>
 
+        <div class="list">
+          <div class="foto">
+            <img class="profile" src="Logo/logo1.png">
+          </div>
+          <div class="info">
+            <p>
+              Nama
+            </p>
+            <p>
+              Spesialis
+            </p>
+            <p>
+              Availability
+            </p>
+          </div>
+        </div>
+    </div>
+    
+    <div class="list">
+          <div class="foto">
+            <img class="profile" src="Logo/logo1.png">
+          </div>
+          <div class="info">
+            <p>
+              Nama
+            </p>
+            <p>
+              Spesialis
+            </p>
+            <p>
+              Availability
+            </p>
+          </div>
+        </div>
+
+        <div class="list">
+          <div class="foto">
+            <img class="profile" src="Logo/logo1.png">
+          </div>
+          <div class="info">
+            <p>
+              Nama
+            </p>
+            <p>
+              Spesialis
+            </p>
+            <p>
+              Availability
+            </p>
+          </div>
+        </div>
+        
         <div class="list">
           <div class="foto">
             <img class="profile" src="Logo/logo1.png">
